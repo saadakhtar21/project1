@@ -35,7 +35,7 @@ jobs:
     
     - name: Deploy to Surge
     
-      run: surge./buildproject001.surge.su ${{ secrets.SURGE_TOKEN }} 
+      run: surge./build project001.surge.su ${{ secrets.SURGE_TOKEN }} 
      
     # Runs a single command using the runners shell
   
